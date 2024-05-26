@@ -1,0 +1,80 @@
+.food-div {
+  display: flex;
+  align-items: center;
+  border: 2px solid #c90d0d;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition:  0.3s ;
+  max-width: 600px; /* Adjust the max-width as needed */
+  font-family: 'Arial, sans-serif'; /* Add your desired font family */
+  animation: fading 1s ;
+  
+}
+
+.food-div:hover {
+  transform: translateY(-5px);
+}
+
+.food-im-img {
+  width: 200px;  /* Increased width */
+  height: 200px; /* Increased height */
+  border-radius: 8px; /* Change to 8px for square with rounded corners or 0 for perfect square */
+  object-fit: cover;
+  margin-right: 16px;
+ 
+ 
+}
+
+.food-div div {
+  flex: 1;
+}
+
+.food-description {
+  max-width: 250px; /* Decrease the width of the description */
+}
+
+.food-div p {
+  margin: 4px 0;
+  font-size: 16px; /* Default font size */
+}
+
+.name {
+  font-size: 20px; /* Larger font size for the name */
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.food-div p:last-child {
+  font-size: 14px; /* Smaller font size for the price */
+  color: #888;
+}
+.price{
+  color: hsl(36, 100%, 50%);
+}
+.food-im > div {
+  border: 1px solid #888;
+  box-shadow: 0 4px 8px rgba(136, 136, 136, 0.5);
+  border-radius: 50px; /* Box shadow for image container */
+}
+
+
+.add-im {
+  width: 20px;  /* Set desired width */
+  height: 20px; /* Set desired height */
+  cursor: pointer; /* Optional: change cursor to pointer on hover */
+padding-left: 0px;
+margin-left: 0px;
+  
+}
+.food-counter
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}

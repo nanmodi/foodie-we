@@ -1,0 +1,27 @@
+.food-display {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+.food-display h1 {
+  margin-bottom: 20px;
+  font-family: 'Arial, sans-serif';
+  font-size: max(2vw, 24px);
+  font-weight: 600;
+}
+
+.food-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Add this to ensure FoodItems occupy remaining space */
+.food-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+

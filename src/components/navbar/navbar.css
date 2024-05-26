@@ -1,0 +1,137 @@
+.nav {
+  background: linear-gradient(45deg, rgb(253, 154, 5), rgb(255, 232, 24));
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  font-style: italic;
+  padding: 0 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  color: white;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.cartIm {
+  height: auto;
+  margin-left: 8px;
+}
+
+.div-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.div-right > img {
+  height: 32px; /* Adjusted height for consistency */
+  width: auto; /* Maintain aspect ratio */
+  filter: invert(30%);
+}
+
+.div-search > img {
+  height: 32px; /* Adjusted height for consistency */
+  width: auto; /* Maintain aspect ratio */
+  filter: invert(30%);
+}
+
+.link-im {
+  height: 32px; /* Adjusted height for consistency */
+  width: auto; /* Maintain aspect ratio */
+  filter: invert(30%);
+}
+
+.div-right > button {
+  background: transparent;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 1px solid gray;
+  color: black;
+}
+
+.dot {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  font-size: 10px;
+  top: 15px;
+  right: 46px;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.hamburger img {
+  height: 32px;
+  width: auto;
+  filter: invert(30%);
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    height: auto; /* Adjust height */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    font-size: 24px; /* Adjusted font size for smaller screens */
+    padding: 10px; /* Add padding for better spacing */
+  }
+
+  .menu {
+    display: none; /* Hide menu for smaller screens */
+  }
+
+  .menu.active {
+    display: flex; /* Show menu when active (toggle menu) */
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 100%;
+    background: linear-gradient(45deg, rgb(253, 154, 5), rgb(255, 232, 24));
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .menu li {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+  }
+
+  .div-right {
+    gap: 12px; /* Adjusted gap for smaller screens */
+  }
+
+  .hamburger {
+    display: block; /* Show hamburger menu icon */
+  }
+}
+
+
