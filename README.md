@@ -1,3 +1,12 @@
+
+
+view the website on:
+https://666c773d92bcff0008f87bc7--foodiewe23.netlify.app/
+
+
+
+
+
 ![Screenshot 2024-05-26 225949](https://github.com/nanmodi/foodie-we/assets/134764976/10bc3585-c82a-4c96-b6da-9e63bc7e37c3)
 ![Screenshot 2024-05-26 225810](https://github.com/nanmodi/foodie-we/assets/134764976/7b553522-ab31-4249-9332-9914c77fe3e4)
 ![Screenshot 2024-05-26 225750](https://github.com/nanmodi/foodie-we/assets/134764976/9121d5da-a0ab-44f5-862d-8af10fe4e2a0)
