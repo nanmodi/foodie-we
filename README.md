@@ -1,7 +1,7 @@
 
 
 view the website on:
-https://666c773d92bcff0008f87bc7--foodiewe23.netlify.app/
+https://foodiewe23.netlify.app/
 
 
 
